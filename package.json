@@ -1,7 +1,7 @@
 {
   "name": "react-lightning-boilerplate",
   "version": "0.0.1",
-  "description": "boilerplate for developing Lightning Components With React",
+  "description": "boilerplate for developing a Lightning Component With React",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
