@@ -1,0 +1,25 @@
+{
+  "name": "react-lightning-boilerplate",
+  "version": "0.0.1",
+  "description": "boilerplate for developing Lightning Components With React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefflombard/react-lightning-boilerplate.git"
+  },
+  "keywords": [
+    "lightning",
+    "react",
+    "salesforce",
+    "components"
+  ],
+  "author": "Jeff Lombard for Eigen X",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jefflombard/react-lightning-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jefflombard/react-lightning-boilerplate#readme"
+}
