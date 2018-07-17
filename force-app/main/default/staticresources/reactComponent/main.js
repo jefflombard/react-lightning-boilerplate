@@ -5630,7 +5630,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(23);
+var _lightningContainer = __webpack_require__(23);
+
+var _lightningContainer2 = _interopRequireDefault(_lightningContainer);
+
+__webpack_require__(24);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5640,21 +5644,60 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-// This is a Container Component for Your App
-
 var App = function (_Component) {
     _inherits(App, _Component);
 
-    function App() {
+    function App(props) {
         _classCallCheck(this, App);
 
-        return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
     }
 
     _createClass(App, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            _lightningContainer2.default.addMessageHandler(this.messageRecievedHandler);
+        }
+    }, {
+        key: 'messageRecievedHandler',
+        value: function messageRecievedHandler(msg) {
+            var name = msg.name,
+                value = msg.value;
+
+
+            console.log("Messaged received.");
+            console.log('Message name: ' + name);
+            console.log('Message value: ' + value);
+
+            // Add Any Logic that should be handled here.
+
+            switch (name) {
+                case "example":
+                    console.log('Handle Example Messgage');
+                    break;
+                default:
+                    console.log('Do Nothing');
+            }
+        }
+    }, {
+        key: 'sendMessage',
+        value: function sendMessage(msg) {
+            // Message format should be an object like { name: "messageName", value: "message value"}
+            _lightningContainer2.default.sendMessage(msg);
+        }
+    }, {
+        key: 'sendMessageExample',
+        value: function sendMessageExample() {
+            // You can wrap the send message function to easily send specific message types.
+
+            this.sendMessage({
+                name: "example",
+                value: this.state.exampleMessageValue
+            });
+        }
+    }, {
         key: 'render',
         value: function render() {
-
             return _react2.default.createElement(
                 'div',
                 null,
@@ -5662,6 +5705,11 @@ var App = function (_Component) {
                     'p',
                     null,
                     'A React Component!'
+                ),
+                _react2.default.createElement(
+                    'button',
+                    { onClick: this.sendMessageExample.bind(this) },
+                    'A Button that sends a specific exampleMessage'
                 )
             );
         }
@@ -5676,8 +5724,92 @@ exports.default = App;
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+/*
+Copyright 2016 salesforce.com, inc. All rights reserved. 
 
-var content = __webpack_require__(24);
+Use of this software is subject to the salesforce.com Developerforce Terms of Use and other
+applicable terms that salesforce.com may make available, as may be amended from time to time.
+You may not decompile, reverse engineer, disassemble, attempt to derive the source code of,
+decrypt, modify, or create derivative works of this software, updates thereto, or any part
+thereof. You may not use the software to engage in any development activity that interferes
+with, disrupts, damages, or accesses in an unauthorized manner the servers, networks, or
+other properties or services of salesforce.com or any third party.
+
+WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL SALESFORCE.COM HAVE ANY LIABILITY
+FOR ANY DAMAGES, INCLUDING BUT NOT LIMITED TO, DIRECT, INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE,
+OR CONSEQUENTIAL DAMAGES, OR DAMAGES BASED ON LOST PROFITS, DATA OR USE, IN CONNECTION WITH THE
+SOFTWARE, HOWEVER CAUSED AND, WHETHER IN CONTRACT, TORT OR UNDER ANY OTHER THEORY OF LIABILITY,
+WHETHER OR NOT YOU HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+*/
+
+
+
+module.exports.sendMessage = function (userMessage) {
+    if (typeof LCC !== "undefined" && typeof LCC.onlineSupport !== "undefined") {
+        LCC.onlineSupport.sendMessage("containerUserMessage", { payload: userMessage });
+    } else {
+        // TODO: offline
+    }
+};
+
+module.exports.addErrorHandler = function (handler) {
+    if (typeof LCC !== "undefined" && typeof LCC.onlineSupport !== "undefined") {
+        LCC.onlineSupport.addErrorHandler(handler);
+    } else {
+        // TODO: offline
+    }
+};
+
+module.exports.removeErrorHandler = function (handler) {
+    if (typeof LCC !== "undefined" && typeof LCC.onlineSupport !== "undefined") {
+        LCC.onlineSupport.removeErrorHandler(handler);
+    } else {
+        // TODO: offline
+    }
+};
+
+module.exports.addMessageHandler = function (handler) {
+    if (typeof LCC !== "undefined" && typeof LCC.onlineSupport !== "undefined") {
+        LCC.onlineSupport.addMessageHandler(handler);
+    } else {
+        // TODO: offline
+    }
+};
+
+module.exports.removeMessageHandler = function (handler) {
+    if (typeof LCC !== "undefined" && typeof LCC.onlineSupport !== "undefined") {
+        LCC.onlineSupport.removeMessageHandler(handler);
+    } else {
+        // TODO: offline
+    }
+};
+
+module.exports.getRESTAPISessionKey = function () {
+    if (typeof LCC !== "undefined" && typeof LCC.onlineSupport !== "undefined") {
+        return LCC.onlineSupport.getRESTAPISessionKey();
+    } else {
+        // TODO: offline
+        return "";
+    }
+};
+
+module.exports.callApex = function (fullyQualifiedApexMethodName, apexMethodParameters, callbackFunction, apexCallConfiguration) {
+    if (typeof Visualforce !== "undefined" && typeof Visualforce.remoting !== "undefined" && typeof Visualforce.remoting.Manager !== "undefined") {
+
+        Visualforce.remoting.Manager.invokeAction(fullyQualifiedApexMethodName, apexMethodParameters, callbackFunction, apexCallConfiguration);
+    } else {
+        // TODO: offline
+    }
+};
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(25);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5691,28 +5823,28 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(26)(content, options);
+var update = __webpack_require__(27)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
 if(false) {}
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(25)(false);
+exports = module.exports = __webpack_require__(26)(false);
 // imports
 
 
 // module
-exports.push([module.i, ".test {\n    color: blue;\n}\n", ""]);
+exports.push([module.i, "", ""]);
 
 // exports
 
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5794,7 +5926,7 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -5860,7 +5992,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(27);
+var	fixUrls = __webpack_require__(28);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -6180,7 +6312,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
