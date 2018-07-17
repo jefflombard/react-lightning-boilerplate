@@ -5,6 +5,8 @@ This provides the basic structure needed for adding React Components to your Sal
 
 ## Setup
 
+1. Fork this repo.
+1. `clone` your forked repo with `git clone <yourRepoUrl>`
 1. [Install sfdx cli](https://developer.salesforce.com/tools/sfdxcli)
 1. [Install Node](https://nodejs.org/en/)
 1. `cd` into the project directory and run `yarn` or `npm install`
