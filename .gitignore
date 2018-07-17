@@ -62,3 +62,6 @@ typings/
 
 # Metadata builds
 build
+
+# Local DX Settings
+.sfdx

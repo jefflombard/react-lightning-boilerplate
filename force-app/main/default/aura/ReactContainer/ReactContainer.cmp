@@ -1,3 +1,15 @@
-<aura:component>
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <aura:attribute name="message" type="string" />
+	
+    <lightning:card title="Your React Component">
 
-</aura:component>	
+        <lightning:container aura:id="jsApp" src="{!$Resource.ReactComponent + '/index.html'}"
+            onmessage="{!c.handleMessage}"
+            onerror="{!c.handleError}"/>
+
+    </lightning:card>
+    <lightning:card title="Message Output">
+        {!v.message}
+    </lightning:card>
+    
+</aura:component>

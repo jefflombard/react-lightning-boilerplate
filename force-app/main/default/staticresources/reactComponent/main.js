@@ -5650,7 +5650,12 @@ var App = function (_Component) {
     function App(props) {
         _classCallCheck(this, App);
 
-        return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
+
+        _this.state = {
+            exampleMessageValue: "Hello from React!"
+        };
+        return _this;
     }
 
     _createClass(App, [{

@@ -2,15 +2,196 @@
     [
         "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app",
         {
-            "state": "u",
             "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 128,
             "modifiedTime": 1531836831796,
             "changeTime": 1531836831796,
+            "contentHash": "b7dc43473e41b042a449a226f306a06f6dd5bd1f",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "b7dc43473e41b042a449a226f306a06f6dd5bd1f"
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1531836841764,
+            "changeTime": 1531836841764,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1531836848020,
+            "changeTime": 1531836848020,
+            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1531837207465,
+            "changeTime": 1531837207465,
+            "contentHash": "ab8ce0f6484ee27de7b5b7cbafe045867268e5a2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1531837262480,
+            "changeTime": 1531837262480,
+            "contentHash": "2881d2eb8a03724a706cc706a5102085025a7251",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.app",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.app",
+            "isDirectory": false,
+            "size": 67,
+            "modifiedTime": 1531836988908,
+            "changeTime": 1531837198347,
+            "contentHash": "5dabece24d03deadeb426fb9b59aedde1392e596",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.app-meta.xml",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.app-meta.xml",
+            "isDirectory": false,
+            "size": 254,
+            "modifiedTime": 1531838036814,
+            "changeTime": 1531838036814,
+            "contentHash": "0dc3780daf1abf6a19ba26a5d3b3c183fa61d239",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.auradoc",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1531836927274,
+            "changeTime": 1531837250673,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.css",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1531836927273,
+            "changeTime": 1531837253009,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.svg",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerApp.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1531836927274,
+            "changeTime": 1531837255681,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerAppController.js",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerAppController.js",
+            "isDirectory": false,
+            "size": 65,
+            "modifiedTime": 1531836927272,
+            "changeTime": 1531837257865,
+            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerAppHelper.js",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerAppHelper.js",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1531836927273,
+            "changeTime": 1531837260169,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerAppRenderer.js",
+        {
+            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/ReactDevContainerApp/ReactDevContainerAppRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1531836927274,
+            "changeTime": 1531837262480,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -93,14 +274,13 @@
         {
             "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/main/default/aura/ReactContainer/ReactContainer.cmp",
             "isDirectory": false,
-            "size": 37,
-            "modifiedTime": 1531757577244,
-            "changeTime": 1531757577244,
-            "contentHash": "bac5bb79bbfe029fc6eb7729b2e53aee4b008e71",
+            "size": 499,
+            "modifiedTime": 1531839057303,
+            "changeTime": 1531839057303,
+            "contentHash": "68b19d24d0eaac4d098deec61c19eeaff31d45f2",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -166,16 +346,15 @@
     [
         "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/main/default/aura/ReactContainer/ReactContainerController.js",
         {
+            "state": "u",
             "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/main/default/aura/ReactContainer/ReactContainerController.js",
             "isDirectory": false,
-            "size": 65,
-            "modifiedTime": 1531757577245,
-            "changeTime": 1531757577245,
-            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 340,
+            "modifiedTime": 1531839121655,
+            "changeTime": 1531839121655,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "382dafc8eba48cecf12882157ca8533cb56f16bd"
         }
     ],
     [
@@ -273,10 +452,10 @@
         {
             "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/main/default/staticresources/ReactComponent/main.js",
             "isDirectory": false,
-            "size": 643535,
-            "modifiedTime": 1531836775396,
-            "changeTime": 1531836775396,
-            "contentHash": "d4c5d171ad69f34ab3d20958ba4578806b60f140",
+            "size": 643651,
+            "modifiedTime": 1531839134777,
+            "changeTime": 1531838853267,
+            "contentHash": "3b6d4667527f5a021221d7d04744a4971c7880d7",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -304,168 +483,12 @@
             "isDirectory": true,
             "size": 640,
             "modifiedTime": 1531835722560,
-            "changeTime": 1531774644726,
+            "changeTime": 1531835722560,
             "contentHash": "18d029f07cdfc05dbe117c4902b41b47d0cc1764",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": true,
             "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev",
-            "isDirectory": true,
-            "isMetadataFile": false,
-            "size": 96,
-            "modifiedTime": 1531836841764,
-            "changeTime": 1531836841764,
-            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default",
-            "isDirectory": true,
-            "isMetadataFile": false,
-            "size": 96,
-            "modifiedTime": 1531836848020,
-            "changeTime": 1531836848020,
-            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura",
-            "isDirectory": true,
-            "isMetadataFile": false,
-            "size": 96,
-            "modifiedTime": 1531836927271,
-            "changeTime": 1531836927271,
-            "contentHash": "024a057a3bb3c5aad9c31f9d65276b9313cb2197"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp",
-            "isDirectory": true,
-            "isMetadataFile": false,
-            "size": 320,
-            "modifiedTime": 1531836927274,
-            "changeTime": 1531836927274,
-            "contentHash": "8714d61ea7e5f3980b6b22f34297c58c8b2af0a0"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.app",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.app",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 41,
-            "modifiedTime": 1531836927271,
-            "changeTime": 1531836927271,
-            "contentHash": "2e2cf71551ebd68c8f3d1d1d16b65e1ac6261cf5"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.app-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.app-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 254,
-            "modifiedTime": 1531836927272,
-            "changeTime": 1531836927272,
-            "contentHash": "b1a6b39ed805d7218b6fa9c388ed34159e0fb7aa"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.auradoc",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.auradoc",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 209,
-            "modifiedTime": 1531836927274,
-            "changeTime": 1531836927274,
-            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.css",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.css",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 10,
-            "modifiedTime": 1531836927273,
-            "changeTime": 1531836927273,
-            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.svg",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerApp.svg",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 661,
-            "modifiedTime": 1531836927274,
-            "changeTime": 1531836927274,
-            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerAppController.js",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerAppController.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 65,
-            "modifiedTime": 1531836927272,
-            "changeTime": 1531836927272,
-            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerAppHelper.js",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerAppHelper.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 45,
-            "modifiedTime": 1531836927273,
-            "changeTime": 1531836927273,
-            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b"
-        }
-    ],
-    [
-        "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerAppRenderer.js",
-        {
-            "state": "u",
-            "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/dev/default/aura/reactDevContainerApp/reactDevContainerAppRenderer.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 50,
-            "modifiedTime": 1531836927274,
-            "changeTime": 1531836927274,
-            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b"
         }
     ]
 ]

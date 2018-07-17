@@ -4,10 +4,9 @@
   "description": "boilerplate for developing a Lightning Component With React",
   "private": true,
   "scripts": {
-    "build:dx": "webpack --config webpack.prod.config.js",
-    "build:mdapi": "webpack --config webpack.prod.config.js && sfdx force:source:convert -r ./force-app -d ./build -n ReactComponent",
-    "deploy:mdapi": "npm run build:mdapi && sfdx force:mdapi:deploy -d ./build -w -u",
-    "deploy:dx": "npm run build:dx && sfdx force:source:push"
+    "build": "webpack --config webpack.prod.config.js",
+    "deploy": "npm run build && sfdx force:source:push",
+    "dev": "npm run deploy && sfdx force:org:open -p /c/ReactDevContainerApp.app"
   },
   "repository": {
     "type": "git",
