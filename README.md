@@ -18,7 +18,7 @@ This provides the basic structure needed for adding React Components to your Sal
 1. Open Lightning Resource > ReactDevContainerApp
 1. Click Preview and you should see something like this:
 
-![Screenshot of React Component within Lightning]( "Screenshot of React Component within Lightning")
+![Screenshot of React Component within Lightning](https://github.com/jefflombard/react-lightning-boilerplate/blob/master/screenshot.png "Screenshot of React Component within Lightning")
 
 ## Available Commands
 
