@@ -16,7 +16,9 @@ This provides the basic structure needed for adding React Components to your Sal
 1. Open your scratch org.
 1. Go to your developer console.
 1. Open Lightning Resource > ReactDevContainerApp
-1. Click Preview
+1. Click Preview and you should see something like this:
+
+![Screenshot of React Component within Lightning]( "Screenshot of React Component within Lightning")
 
 ## Available Commands
 
