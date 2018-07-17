@@ -350,11 +350,11 @@
             "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/main/default/aura/ReactContainer/ReactContainerController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 340,
-            "modifiedTime": 1531839121655,
-            "changeTime": 1531839121655,
+            "size": 299,
+            "modifiedTime": 1531839165875,
+            "changeTime": 1531839165875,
             "isWorkspace": false,
-            "contentHash": "382dafc8eba48cecf12882157ca8533cb56f16bd"
+            "contentHash": "b766fbbdf0026f95f86b3bb4c5b92b5751e72010"
         }
     ],
     [
@@ -453,7 +453,7 @@
             "sourcePath": "/Users/jeffjr/eigenx/react-lightning-boilerplate/force-app/main/default/staticresources/ReactComponent/main.js",
             "isDirectory": false,
             "size": 643651,
-            "modifiedTime": 1531839134777,
+            "modifiedTime": 1531839182120,
             "changeTime": 1531838853267,
             "contentHash": "3b6d4667527f5a021221d7d04744a4971c7880d7",
             "isMetadataFile": false,
