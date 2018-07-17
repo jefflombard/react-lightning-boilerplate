@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.prod.config.js",
-    "deploy": "npm run build && sfdx force:source:push",
+    "deploy": "npm run build && sfdx force:source:push"
   },
   "repository": {
     "type": "git",
@@ -33,7 +33,7 @@
     "postcss-loader": "^2.1.6",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.1",
-    "webpack-cli": "^3.0.8",
+    "webpack-cli": "^3.0.8"
   },
   "dependencies": {
     "lightning-container": "^1.0.0",
